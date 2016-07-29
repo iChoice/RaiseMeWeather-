@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82BF9D9C1D4AE59200B09406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9D9B1D4AE59200B09406 /* main.m */; };
+		82BF9D9F1D4AE59200B09406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9D9E1D4AE59200B09406 /* AppDelegate.m */; };
+		82BF9DA21D4AE59200B09406 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DA11D4AE59200B09406 /* ViewController.m */; };
+		82BF9DA51D4AE59200B09406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA31D4AE59200B09406 /* Main.storyboard */; };
+		82BF9DA71D4AE59200B09406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA61D4AE59200B09406 /* Assets.xcassets */; };
+		82BF9DAA1D4AE59200B09406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA81D4AE59200B09406 /* LaunchScreen.storyboard */; };
+		82BF9DB51D4AE59300B09406 /* RaiseMeWeatherThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DB41D4AE59300B09406 /* RaiseMeWeatherThingTests.m */; };
+		82BF9DC01D4AE59300B09406 /* RaiseMeWeatherThingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DBF1D4AE59300B09406 /* RaiseMeWeatherThingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82BF9DB11D4AE59200B09406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BF9D8F1D4AE59200B09406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BF9D961D4AE59200B09406;
+			remoteInfo = RaiseMeWeatherThing;
+		};
+		82BF9DBC1D4AE59300B09406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BF9D8F1D4AE59200B09406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BF9D961D4AE59200B09406;
+			remoteInfo = RaiseMeWeatherThing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82BF9D971D4AE59200B09406 /* RaiseMeWeatherThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseMeWeatherThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF9D9B1D4AE59200B09406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82BF9D9D1D4AE59200B09406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82BF9D9E1D4AE59200B09406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82BF9DA01D4AE59200B09406 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82BF9DA11D4AE59200B09406 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82BF9DA41D4AE59200B09406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82BF9DA61D4AE59200B09406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BF9DA91D4AE59200B09406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BF9DAB1D4AE59200B09406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BF9DB01D4AE59200B09406 /* RaiseMeWeatherThingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseMeWeatherThingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF9DB41D4AE59300B09406 /* RaiseMeWeatherThingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiseMeWeatherThingTests.m; sourceTree = "<group>"; };
+		82BF9DB61D4AE59300B09406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BF9DBB1D4AE59300B09406 /* RaiseMeWeatherThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseMeWeatherThingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF9DBF1D4AE59300B09406 /* RaiseMeWeatherThingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiseMeWeatherThingUITests.m; sourceTree = "<group>"; };
+		82BF9DC11D4AE59300B09406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BF9D941D4AE59200B09406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9DAD1D4AE59200B09406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9DB81D4AE59300B09406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BF9D8E1D4AE59200B09406 = {
+			isa = PBXGroup;
+			children = (
+				82BF9D991D4AE59200B09406 /* RaiseMeWeatherThing */,
+				82BF9DB31D4AE59300B09406 /* RaiseMeWeatherThingTests */,
+				82BF9DBE1D4AE59300B09406 /* RaiseMeWeatherThingUITests */,
+				82BF9D981D4AE59200B09406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BF9D981D4AE59200B09406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9D971D4AE59200B09406 /* RaiseMeWeatherThing.app */,
+				82BF9DB01D4AE59200B09406 /* RaiseMeWeatherThingTests.xctest */,
+				82BF9DBB1D4AE59300B09406 /* RaiseMeWeatherThingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BF9D991D4AE59200B09406 /* RaiseMeWeatherThing */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9D9D1D4AE59200B09406 /* AppDelegate.h */,
+				82BF9D9E1D4AE59200B09406 /* AppDelegate.m */,
+				82BF9DA01D4AE59200B09406 /* ViewController.h */,
+				82BF9DA11D4AE59200B09406 /* ViewController.m */,
+				82BF9DA31D4AE59200B09406 /* Main.storyboard */,
+				82BF9DA61D4AE59200B09406 /* Assets.xcassets */,
+				82BF9DA81D4AE59200B09406 /* LaunchScreen.storyboard */,
+				82BF9DAB1D4AE59200B09406 /* Info.plist */,
+				82BF9D9A1D4AE59200B09406 /* Supporting Files */,
+			);
+			path = RaiseMeWeatherThing;
+			sourceTree = "<group>";
+		};
+		82BF9D9A1D4AE59200B09406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9D9B1D4AE59200B09406 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82BF9DB31D4AE59300B09406 /* RaiseMeWeatherThingTests */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9DB41D4AE59300B09406 /* RaiseMeWeatherThingTests.m */,
+				82BF9DB61D4AE59300B09406 /* Info.plist */,
+			);
+			path = RaiseMeWeatherThingTests;
+			sourceTree = "<group>";
+		};
+		82BF9DBE1D4AE59300B09406 /* RaiseMeWeatherThingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9DBF1D4AE59300B09406 /* RaiseMeWeatherThingUITests.m */,
+				82BF9DC11D4AE59300B09406 /* Info.plist */,
+			);
+			path = RaiseMeWeatherThingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BF9D961D4AE59200B09406 /* RaiseMeWeatherThing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF9DC41D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThing" */;
+			buildPhases = (
+				82BF9D931D4AE59200B09406 /* Sources */,
+				82BF9D941D4AE59200B09406 /* Frameworks */,
+				82BF9D951D4AE59200B09406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaiseMeWeatherThing;
+			productName = RaiseMeWeatherThing;
+			productReference = 82BF9D971D4AE59200B09406 /* RaiseMeWeatherThing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82BF9DAF1D4AE59200B09406 /* RaiseMeWeatherThingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF9DC71D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThingTests" */;
+			buildPhases = (
+				82BF9DAC1D4AE59200B09406 /* Sources */,
+				82BF9DAD1D4AE59200B09406 /* Frameworks */,
+				82BF9DAE1D4AE59200B09406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BF9DB21D4AE59200B09406 /* PBXTargetDependency */,
+			);
+			name = RaiseMeWeatherThingTests;
+			productName = RaiseMeWeatherThingTests;
+			productReference = 82BF9DB01D4AE59200B09406 /* RaiseMeWeatherThingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82BF9DBA1D4AE59300B09406 /* RaiseMeWeatherThingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF9DCA1D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThingUITests" */;
+			buildPhases = (
+				82BF9DB71D4AE59300B09406 /* Sources */,
+				82BF9DB81D4AE59300B09406 /* Frameworks */,
+				82BF9DB91D4AE59300B09406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BF9DBD1D4AE59300B09406 /* PBXTargetDependency */,
+			);
+			name = RaiseMeWeatherThingUITests;
+			productName = RaiseMeWeatherThingUITests;
+			productReference = 82BF9DBB1D4AE59300B09406 /* RaiseMeWeatherThingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BF9D8F1D4AE59200B09406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iCA;
+				TargetAttributes = {
+					82BF9D961D4AE59200B09406 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					82BF9DAF1D4AE59200B09406 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 82BF9D961D4AE59200B09406;
+					};
+					82BF9DBA1D4AE59300B09406 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 82BF9D961D4AE59200B09406;
+					};
+				};
+			};
+			buildConfigurationList = 82BF9D921D4AE59200B09406 /* Build configuration list for PBXProject "RaiseMeWeatherThing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BF9D8E1D4AE59200B09406;
+			productRefGroup = 82BF9D981D4AE59200B09406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BF9D961D4AE59200B09406 /* RaiseMeWeatherThing */,
+				82BF9DAF1D4AE59200B09406 /* RaiseMeWeatherThingTests */,
+				82BF9DBA1D4AE59300B09406 /* RaiseMeWeatherThingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BF9D951D4AE59200B09406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF9DAA1D4AE59200B09406 /* LaunchScreen.storyboard in Resources */,
+				82BF9DA71D4AE59200B09406 /* Assets.xcassets in Resources */,
+				82BF9DA51D4AE59200B09406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9DAE1D4AE59200B09406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9DB91D4AE59300B09406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BF9D931D4AE59200B09406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF9DA21D4AE59200B09406 /* ViewController.m in Sources */,
+				82BF9D9F1D4AE59200B09406 /* AppDelegate.m in Sources */,
+				82BF9D9C1D4AE59200B09406 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9DAC1D4AE59200B09406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF9DB51D4AE59300B09406 /* RaiseMeWeatherThingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9DB71D4AE59300B09406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF9DC01D4AE59300B09406 /* RaiseMeWeatherThingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82BF9DB21D4AE59200B09406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BF9D961D4AE59200B09406 /* RaiseMeWeatherThing */;
+			targetProxy = 82BF9DB11D4AE59200B09406 /* PBXContainerItemProxy */;
+		};
+		82BF9DBD1D4AE59300B09406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BF9D961D4AE59200B09406 /* RaiseMeWeatherThing */;
+			targetProxy = 82BF9DBC1D4AE59300B09406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82BF9DA31D4AE59200B09406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BF9DA41D4AE59200B09406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82BF9DA81D4AE59200B09406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BF9DA91D4AE59200B09406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BF9DC21D4AE59300B09406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BF9DC31D4AE59300B09406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BF9DC51D4AE59300B09406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaiseMeWeatherThing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCA.RaiseMeWeatherThing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82BF9DC61D4AE59300B09406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaiseMeWeatherThing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCA.RaiseMeWeatherThing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82BF9DC81D4AE59300B09406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaiseMeWeatherThingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCA.RaiseMeWeatherThingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaiseMeWeatherThing.app/RaiseMeWeatherThing";
+			};
+			name = Debug;
+		};
+		82BF9DC91D4AE59300B09406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaiseMeWeatherThingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCA.RaiseMeWeatherThingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaiseMeWeatherThing.app/RaiseMeWeatherThing";
+			};
+			name = Release;
+		};
+		82BF9DCB1D4AE59300B09406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RaiseMeWeatherThingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCA.RaiseMeWeatherThingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaiseMeWeatherThing;
+			};
+			name = Debug;
+		};
+		82BF9DCC1D4AE59300B09406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RaiseMeWeatherThingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCA.RaiseMeWeatherThingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaiseMeWeatherThing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BF9D921D4AE59200B09406 /* Build configuration list for PBXProject "RaiseMeWeatherThing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF9DC21D4AE59300B09406 /* Debug */,
+				82BF9DC31D4AE59300B09406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF9DC41D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF9DC51D4AE59300B09406 /* Debug */,
+				82BF9DC61D4AE59300B09406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82BF9DC71D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF9DC81D4AE59300B09406 /* Debug */,
+				82BF9DC91D4AE59300B09406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82BF9DCA1D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF9DCB1D4AE59300B09406 /* Debug */,
+				82BF9DCC1D4AE59300B09406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BF9D8F1D4AE59200B09406 /* Project object */;
+}
