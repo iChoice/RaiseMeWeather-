@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B9EB9A1D4E48A000CE717B /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EB991D4E48A000CE717B /* rain.jpg */; };
+		82B9EB9C1D4E491500CE717B /* rainOnGlass 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EB9B1D4E491500CE717B /* rainOnGlass 2.jpg */; };
+		82B9EB9E1D4E4B4500CE717B /* Water-droplets-on-glass-ipad-wallpaper-ilikewallpaper_com.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EB9D1D4E4B4500CE717B /* Water-droplets-on-glass-ipad-wallpaper-ilikewallpaper_com.jpeg */; };
+		82B9EBA41D4E4FF500CE717B /* ForcastForACityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B9EBA31D4E4FF500CE717B /* ForcastForACityViewController.m */; };
+		82B9EBA81D4E74EE00CE717B /* Scattered Clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBA71D4E74EE00CE717B /* Scattered Clouds.jpg */; };
+		82B9EBAA1D4E759400CE717B /* sunny-landscape-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBA91D4E759400CE717B /* sunny-landscape-1.jpg */; };
+		82B9EBAC1D4E761600CE717B /* sunrise+image+3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBAB1D4E761600CE717B /* sunrise+image+3.jpg */; };
+		82B9EBAE1D4E769300CE717B /* sunshine skiing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBAD1D4E769300CE717B /* sunshine skiing.jpg */; };
+		82B9EBB01D4E789200CE717B /* few clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBAF1D4E789200CE717B /* few clouds.jpg */; };
+		82B9EBB51D4E7C9C00CE717B /* San Francisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB21D4E7C9C00CE717B /* San Francisco.jpg */; };
+		82B9EBB61D4E7C9C00CE717B /* SanDiego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB31D4E7C9C00CE717B /* SanDiego.jpg */; };
+		82B9EBB71D4E7C9C00CE717B /* boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB41D4E7C9C00CE717B /* boston.jpg */; };
+		82B9EBBA1D4E7CB100CE717B /* New york.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB81D4E7CB100CE717B /* New york.jpg */; };
+		82B9EBBB1D4E7CB100CE717B /* New york 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB91D4E7CB100CE717B /* New york 22.jpg */; };
+		82B9EBBD1D4E84B800CE717B /* SanDiego2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBBC1D4E84B800CE717B /* SanDiego2.jpg */; };
 		82BF9D9C1D4AE59200B09406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9D9B1D4AE59200B09406 /* main.m */; };
 		82BF9D9F1D4AE59200B09406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9D9E1D4AE59200B09406 /* AppDelegate.m */; };
-		82BF9DA21D4AE59200B09406 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DA11D4AE59200B09406 /* ViewController.m */; };
 		82BF9DA51D4AE59200B09406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA31D4AE59200B09406 /* Main.storyboard */; };
 		82BF9DA71D4AE59200B09406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA61D4AE59200B09406 /* Assets.xcassets */; };
 		82BF9DAA1D4AE59200B09406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA81D4AE59200B09406 /* LaunchScreen.storyboard */; };
 		82BF9DB51D4AE59300B09406 /* RaiseMeWeatherThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DB41D4AE59300B09406 /* RaiseMeWeatherThingTests.m */; };
 		82BF9DC01D4AE59300B09406 /* RaiseMeWeatherThingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DBF1D4AE59300B09406 /* RaiseMeWeatherThingUITests.m */; };
+		82BF9DD01D4AE61600B09406 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DCF1D4AE61600B09406 /* Weather.m */; };
+		82BF9DD31D4AE7B400B09406 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DD21D4AE7B400B09406 /* WeatherViewController.m */; };
+		82BF9DD91D4AEE3600B09406 /* CityWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9DD81D4AEE3600B09406 /* CityWeather.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +52,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82B9EB991D4E48A000CE717B /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		82B9EB9B1D4E491500CE717B /* rainOnGlass 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainOnGlass 2.jpg"; sourceTree = "<group>"; };
+		82B9EB9D1D4E4B4500CE717B /* Water-droplets-on-glass-ipad-wallpaper-ilikewallpaper_com.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water-droplets-on-glass-ipad-wallpaper-ilikewallpaper_com.jpeg"; sourceTree = "<group>"; };
+		82B9EBA21D4E4FF500CE717B /* ForcastForACityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForcastForACityViewController.h; sourceTree = "<group>"; };
+		82B9EBA31D4E4FF500CE717B /* ForcastForACityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForcastForACityViewController.m; sourceTree = "<group>"; };
+		82B9EBA71D4E74EE00CE717B /* Scattered Clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scattered Clouds.jpg"; sourceTree = "<group>"; };
+		82B9EBA91D4E759400CE717B /* sunny-landscape-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny-landscape-1.jpg"; sourceTree = "<group>"; };
+		82B9EBAB1D4E761600CE717B /* sunrise+image+3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunrise+image+3.jpg"; sourceTree = "<group>"; };
+		82B9EBAD1D4E769300CE717B /* sunshine skiing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunshine skiing.jpg"; sourceTree = "<group>"; };
+		82B9EBAF1D4E789200CE717B /* few clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "few clouds.jpg"; sourceTree = "<group>"; };
+		82B9EBB21D4E7C9C00CE717B /* San Francisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "San Francisco.jpg"; sourceTree = "<group>"; };
+		82B9EBB31D4E7C9C00CE717B /* SanDiego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanDiego.jpg; sourceTree = "<group>"; };
+		82B9EBB41D4E7C9C00CE717B /* boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston.jpg; sourceTree = "<group>"; };
+		82B9EBB81D4E7CB100CE717B /* New york.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New york.jpg"; sourceTree = "<group>"; };
+		82B9EBB91D4E7CB100CE717B /* New york 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New york 22.jpg"; sourceTree = "<group>"; };
+		82B9EBBC1D4E84B800CE717B /* SanDiego2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanDiego2.jpg; sourceTree = "<group>"; };
 		82BF9D971D4AE59200B09406 /* RaiseMeWeatherThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseMeWeatherThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9D9B1D4AE59200B09406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82BF9D9D1D4AE59200B09406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82BF9D9E1D4AE59200B09406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		82BF9DA01D4AE59200B09406 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82BF9DA11D4AE59200B09406 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82BF9DA41D4AE59200B09406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82BF9DA61D4AE59200B09406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82BF9DA91D4AE59200B09406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +82,12 @@
 		82BF9DBB1D4AE59300B09406 /* RaiseMeWeatherThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseMeWeatherThingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9DBF1D4AE59300B09406 /* RaiseMeWeatherThingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiseMeWeatherThingUITests.m; sourceTree = "<group>"; };
 		82BF9DC11D4AE59300B09406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BF9DCE1D4AE61600B09406 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		82BF9DCF1D4AE61600B09406 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		82BF9DD11D4AE7B400B09406 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		82BF9DD21D4AE7B400B09406 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		82BF9DD71D4AEE3600B09406 /* CityWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityWeather.h; path = ../CityWeather.h; sourceTree = "<group>"; };
+		82BF9DD81D4AEE3600B09406 /* CityWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityWeather.m; path = ../CityWeather.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +115,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82B9EBB11D4E78DC00CE717B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82B9EB991D4E48A000CE717B /* rain.jpg */,
+				82B9EB9B1D4E491500CE717B /* rainOnGlass 2.jpg */,
+				82B9EB9D1D4E4B4500CE717B /* Water-droplets-on-glass-ipad-wallpaper-ilikewallpaper_com.jpeg */,
+				82B9EBA71D4E74EE00CE717B /* Scattered Clouds.jpg */,
+				82B9EBA91D4E759400CE717B /* sunny-landscape-1.jpg */,
+				82B9EBAB1D4E761600CE717B /* sunrise+image+3.jpg */,
+				82B9EBAD1D4E769300CE717B /* sunshine skiing.jpg */,
+				82B9EBAF1D4E789200CE717B /* few clouds.jpg */,
+				82B9EBB21D4E7C9C00CE717B /* San Francisco.jpg */,
+				82B9EBB31D4E7C9C00CE717B /* SanDiego.jpg */,
+				82B9EBB41D4E7C9C00CE717B /* boston.jpg */,
+				82B9EBB81D4E7CB100CE717B /* New york.jpg */,
+				82B9EBB91D4E7CB100CE717B /* New york 22.jpg */,
+				82B9EBBC1D4E84B800CE717B /* SanDiego2.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		82BF9D8E1D4AE59200B09406 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +161,15 @@
 			children = (
 				82BF9D9D1D4AE59200B09406 /* AppDelegate.h */,
 				82BF9D9E1D4AE59200B09406 /* AppDelegate.m */,
-				82BF9DA01D4AE59200B09406 /* ViewController.h */,
-				82BF9DA11D4AE59200B09406 /* ViewController.m */,
 				82BF9DA31D4AE59200B09406 /* Main.storyboard */,
+				82B9EBA21D4E4FF500CE717B /* ForcastForACityViewController.h */,
+				82B9EBA31D4E4FF500CE717B /* ForcastForACityViewController.m */,
+				82BF9DD11D4AE7B400B09406 /* WeatherViewController.h */,
+				82BF9DD21D4AE7B400B09406 /* WeatherViewController.m */,
 				82BF9DA61D4AE59200B09406 /* Assets.xcassets */,
 				82BF9DA81D4AE59200B09406 /* LaunchScreen.storyboard */,
 				82BF9DAB1D4AE59200B09406 /* Info.plist */,
+				82BF9DCD1D4AE5AB00B09406 /* Model */,
 				82BF9D9A1D4AE59200B09406 /* Supporting Files */,
 			);
 			path = RaiseMeWeatherThing;
@@ -117,6 +178,7 @@
 		82BF9D9A1D4AE59200B09406 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82B9EBB11D4E78DC00CE717B /* Images */,
 				82BF9D9B1D4AE59200B09406 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +200,17 @@
 				82BF9DC11D4AE59300B09406 /* Info.plist */,
 			);
 			path = RaiseMeWeatherThingUITests;
+			sourceTree = "<group>";
+		};
+		82BF9DCD1D4AE5AB00B09406 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9DD71D4AEE3600B09406 /* CityWeather.h */,
+				82BF9DD81D4AEE3600B09406 /* CityWeather.m */,
+				82BF9DCE1D4AE61600B09406 /* Weather.h */,
+				82BF9DCF1D4AE61600B09406 /* Weather.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +316,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B9EBAE1D4E769300CE717B /* sunshine skiing.jpg in Resources */,
+				82B9EBBB1D4E7CB100CE717B /* New york 22.jpg in Resources */,
+				82B9EBBD1D4E84B800CE717B /* SanDiego2.jpg in Resources */,
+				82B9EB9C1D4E491500CE717B /* rainOnGlass 2.jpg in Resources */,
 				82BF9DAA1D4AE59200B09406 /* LaunchScreen.storyboard in Resources */,
+				82B9EBB01D4E789200CE717B /* few clouds.jpg in Resources */,
+				82B9EB9A1D4E48A000CE717B /* rain.jpg in Resources */,
+				82B9EBA81D4E74EE00CE717B /* Scattered Clouds.jpg in Resources */,
+				82B9EBB51D4E7C9C00CE717B /* San Francisco.jpg in Resources */,
+				82B9EBAC1D4E761600CE717B /* sunrise+image+3.jpg in Resources */,
+				82B9EBBA1D4E7CB100CE717B /* New york.jpg in Resources */,
 				82BF9DA71D4AE59200B09406 /* Assets.xcassets in Resources */,
+				82B9EBB61D4E7C9C00CE717B /* SanDiego.jpg in Resources */,
+				82B9EBB71D4E7C9C00CE717B /* boston.jpg in Resources */,
 				82BF9DA51D4AE59200B09406 /* Main.storyboard in Resources */,
+				82B9EBAA1D4E759400CE717B /* sunny-landscape-1.jpg in Resources */,
+				82B9EB9E1D4E4B4500CE717B /* Water-droplets-on-glass-ipad-wallpaper-ilikewallpaper_com.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BF9DA21D4AE59200B09406 /* ViewController.m in Sources */,
+				82B9EBA41D4E4FF500CE717B /* ForcastForACityViewController.m in Sources */,
+				82BF9DD01D4AE61600B09406 /* Weather.m in Sources */,
+				82BF9DD31D4AE7B400B09406 /* WeatherViewController.m in Sources */,
+				82BF9DD91D4AEE3600B09406 /* CityWeather.m in Sources */,
 				82BF9D9F1D4AE59200B09406 /* AppDelegate.m in Sources */,
 				82BF9D9C1D4AE59200B09406 /* main.m in Sources */,
 			);
@@ -498,6 +588,7 @@
 				82BF9DC61D4AE59300B09406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82BF9DC71D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +597,7 @@
 				82BF9DC91D4AE59300B09406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82BF9DCA1D4AE59300B09406 /* Build configuration list for PBXNativeTarget "RaiseMeWeatherThingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +606,7 @@
 				82BF9DCC1D4AE59300B09406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
