@@ -11,9 +11,11 @@
 #import "Weather.h"
 #import "ForcastForACityViewController.h"
 
-@interface WeatherViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface WeatherViewController () <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate, UITextViewDelegate>
+
     @property (weak, nonatomic) IBOutlet UITableView *tableView;
     @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+    @property (weak, nonatomic) IBOutlet UITextField *zipCodeText;
 
     @property Weather *weather;
 @end
@@ -23,44 +25,54 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.delegate = self;
+    self.zipCodeText.delegate = self;
     [self selectImageofCity:0];
     
      self.weather = [Weather new];
     
-
+    
     // Add San Francisco
-    self.weather.zipcode = @"94111";
-    
-    [self.weather importJsonFileWithCompletion:^(CityWeather *cityWeather)  {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.tableView reloadData];
+    [self.weather importJsonFileWithZipcode:@"94111"
+                                 completion:^(CityWeather *cityWeather) {
+                                     dispatch_async(dispatch_get_main_queue(), ^{
+                                         [self.tableView reloadData];
+                                         
+                                     });
+                                 }];
 
-        });
-    }];
-    
     // Add San Diego
-    self.weather.zipcode = @"92103";
+    [self.weather importJsonFileWithZipcode:@"92103"
+                                 completion:^(CityWeather *cityWeather) {
+                                     dispatch_async(dispatch_get_main_queue(), ^{
+                                         [self.tableView reloadData];
+                                         
+                                     });
+                                 }];
     
-    [self.weather importJsonFileWithCompletion:^(CityWeather *cityWeather)  {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.tableView reloadData];
-            
-        });
-    }];
+    
+
     
     // Add New York
-    self.weather.zipcode = @"10004";
-    
-    [self.weather importJsonFileWithCompletion:^(CityWeather *cityWeather)  {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.tableView reloadData];
-            
-        });
-    }];
+    [self.weather importJsonFileWithZipcode:@"10004"
+                                 completion:^(CityWeather *cityWeather) {
+                                     dispatch_async(dispatch_get_main_queue(), ^{
+                                         [self.tableView reloadData];
+                                         
+                                     });
+                                 }];
 
- 
 }
 
+- (IBAction)zipCodeTextEndered:(UIButton *)sender {
+       [self.weather importJsonFileWithZipcode:self.zipCodeText.text
+                                 completion:^(CityWeather *cityWeather) {
+                                     dispatch_async(dispatch_get_main_queue(), ^{
+                                         [self.tableView reloadData];
+                                         
+                                     });
+                                 }];
+
+}
 
 
 
@@ -109,6 +121,25 @@
 }
 
 
+-(void)textFieldDidEndEditing:(UITextField *)textField
+{
+    [self.weather importJsonFileWithZipcode:textField.text
+                                 completion:^(CityWeather *cityWeather) {
+                        
+                                     dispatch_async(dispatch_get_main_queue(), ^{
+                                         [self.tableView reloadData];
+                                         self.zipCodeText.text = @"";
+                                     });
+                                 }];
+}
+
+
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
+}
 
 
 #pragma mark - Navigation
@@ -121,6 +152,7 @@
     destVC.cityWeatherForcast = cityWeather.forcastByDay;
     
 }
+
 
 
 

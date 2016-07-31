@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <tableView clipsSubviews="YES" alpha="0.95999999999999996" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wYa-9x-qGp">
-                                <rect key="frame" x="96" y="63" width="409" height="392"/>
+                                <rect key="frame" x="96" y="71" width="409" height="392"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="cell" textLabel="c2n-G5-2HX" detailTextLabel="f3G-gh-YfH" rowHeight="57" style="IBUITableViewCellStyleSubtitle" id="T0w-nQ-MTe">
@@ -58,28 +58,62 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Ygp-9B-BGg"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQx-K2-jSK">
+                                <rect key="frame" x="200" y="515" width="200" height="57"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.75" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Kj-d4-QeM">
+                                        <rect key="frame" x="156" y="14" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Y0f-9s-HLJ"/>
+                                            <constraint firstAttribute="height" constant="30" id="vIj-em-scv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="zipCodeTextEndered:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cdp-QV-EOi"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Zipcode:" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MHn-we-yjP">
+                                        <rect key="frame" x="18" y="14" width="130" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="4M3-nN-EKf"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="D4C-xp-l7e"/>
+                                    <constraint firstAttribute="height" constant="57" id="gXY-OQ-4Rs"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wYa-9x-qGp" secondAttribute="trailing" constant="50" id="0Ce-wM-euz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="P4S-bu-pwe" secondAttribute="trailing" constant="-20" id="2cE-0s-tEB"/>
-                            <constraint firstItem="wYa-9x-qGp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="7oH-lf-JXx"/>
                             <constraint firstItem="P4S-bu-pwe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="9Dq-Jl-cFm"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wYa-9x-qGp" secondAttribute="bottom" constant="100" id="Dav-ow-Mpo"/>
-                            <constraint firstItem="wYa-9x-qGp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="70" id="N6G-cM-hPK"/>
+                            <constraint firstItem="wYa-9x-qGp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="L2K-Vb-Dfh"/>
+                            <constraint firstItem="lQx-K2-jSK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N0s-4A-L3c"/>
+                            <constraint firstItem="wYa-9x-qGp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="7" id="X5j-97-2nN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lQx-K2-jSK" secondAttribute="bottom" constant="28" id="YAj-z8-cN3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wYa-9x-qGp" secondAttribute="bottom" constant="100" id="arZ-Xr-UUg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="P4S-bu-pwe" secondAttribute="bottom" id="fhu-J8-hdT"/>
                             <constraint firstItem="P4S-bu-pwe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="nAK-QW-aqy"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wYa-9x-qGp" secondAttribute="trailing" constant="50" id="xPH-mg-obR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="City" id="ITl-5H-EuU"/>
                     <connections>
                         <outlet property="imageView" destination="P4S-bu-pwe" id="Mah-7l-16o"/>
                         <outlet property="tableView" destination="wYa-9x-qGp" id="XMP-3h-EQQ"/>
+                        <outlet property="zipCodeText" destination="MHn-we-yjP" id="wuW-Lv-K0T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947" y="872"/>
+            <point key="canvasLocation" x="1110" y="833"/>
         </scene>
         <!--Forcast ForA City View Controller-->
         <scene sceneID="SGb-Lq-JrU">
@@ -108,17 +142,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y5y-ME-fAg">
-                                                    <rect key="frame" x="15" y="21" width="32" height="20"/>
+                                                    <rect key="frame" x="15" y="17" width="32" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LTa-zL-RNc">
-                                                    <rect key="frame" x="15" y="41" width="41" height="14"/>
+                                                    <rect key="frame" x="15" y="37" width="62" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>

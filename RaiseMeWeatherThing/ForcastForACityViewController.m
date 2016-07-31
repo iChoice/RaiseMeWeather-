@@ -8,6 +8,7 @@
 
 #import "ForcastForACityViewController.h"
 
+
 @interface ForcastForACityViewController ()
     @property (weak, nonatomic) IBOutlet UIImageView *imageView;
     @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -21,13 +22,13 @@
     if (self.cityWeatherForcast.count > 0)
         [self selectImageForWeather:0];
 }
-    
 
+
+#pragma mark Table View Delegates
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.cityWeatherForcast.count;
 }
-
 
 
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -36,15 +37,21 @@
    
     NSDictionary *dayForcast = self.cityWeatherForcast[indexPath.row];
     NSArray *dayWeather = dayForcast[@"weather"];
-   
-
-    
-    NSString *weatherDescription =dayWeather.firstObject[@"description"];
-    cell.textLabel.text = weatherDescription;
-
     
     NSString *dateStr = dayForcast[@"dt_txt"];
-    cell.detailTextLabel.text =dateStr;
+    // Convert string to date object
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy/MM/dd HH:mm:ss"];
+    NSDate *date = [dateFormat dateFromString:dateStr];
+
+    
+    NSDateFormatter *format = [[NSDateFormatter alloc] init];
+    [format setDateFormat:@"MM/dd/yyyy HH:mm a"];
+    cell.textLabel.text  = [format stringFromDate:date];
+    
+    NSString *weatherDescription =dayWeather.firstObject[@"description"];
+    cell.detailTextLabel.text = weatherDescription;
+
     return cell;
 }
 
@@ -55,7 +62,7 @@
 }
 
 
-
+#pragma mark General Methods
 -(void)selectImageForWeather:(long )index
 {
     NSDictionary *dayForcast = self.cityWeatherForcast[index];

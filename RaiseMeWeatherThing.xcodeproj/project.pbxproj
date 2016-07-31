@@ -22,6 +22,7 @@
 		82B9EBBA1D4E7CB100CE717B /* New york.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB81D4E7CB100CE717B /* New york.jpg */; };
 		82B9EBBB1D4E7CB100CE717B /* New york 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBB91D4E7CB100CE717B /* New york 22.jpg */; };
 		82B9EBBD1D4E84B800CE717B /* SanDiego2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B9EBBC1D4E84B800CE717B /* SanDiego2.jpg */; };
+		82B9EBC01D4E981100CE717B /* NSDatePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B9EBBF1D4E981100CE717B /* NSDatePlus.m */; };
 		82BF9D9C1D4AE59200B09406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9D9B1D4AE59200B09406 /* main.m */; };
 		82BF9D9F1D4AE59200B09406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9D9E1D4AE59200B09406 /* AppDelegate.m */; };
 		82BF9DA51D4AE59200B09406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF9DA31D4AE59200B09406 /* Main.storyboard */; };
@@ -68,6 +69,8 @@
 		82B9EBB81D4E7CB100CE717B /* New york.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New york.jpg"; sourceTree = "<group>"; };
 		82B9EBB91D4E7CB100CE717B /* New york 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New york 22.jpg"; sourceTree = "<group>"; };
 		82B9EBBC1D4E84B800CE717B /* SanDiego2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanDiego2.jpg; sourceTree = "<group>"; };
+		82B9EBBE1D4E981100CE717B /* NSDatePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDatePlus.h; sourceTree = "<group>"; };
+		82B9EBBF1D4E981100CE717B /* NSDatePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDatePlus.m; sourceTree = "<group>"; };
 		82BF9D971D4AE59200B09406 /* RaiseMeWeatherThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseMeWeatherThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9D9B1D4AE59200B09406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82BF9D9D1D4AE59200B09406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 		82BF9D9A1D4AE59200B09406 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82B9EBBE1D4E981100CE717B /* NSDatePlus.h */,
+				82B9EBBF1D4E981100CE717B /* NSDatePlus.m */,
 				82B9EBB11D4E78DC00CE717B /* Images */,
 				82BF9D9B1D4AE59200B09406 /* main.m */,
 			);
@@ -360,6 +365,7 @@
 				82B9EBA41D4E4FF500CE717B /* ForcastForACityViewController.m in Sources */,
 				82BF9DD01D4AE61600B09406 /* Weather.m in Sources */,
 				82BF9DD31D4AE7B400B09406 /* WeatherViewController.m in Sources */,
+				82B9EBC01D4E981100CE717B /* NSDatePlus.m in Sources */,
 				82BF9DD91D4AEE3600B09406 /* CityWeather.m in Sources */,
 				82BF9D9F1D4AE59200B09406 /* AppDelegate.m in Sources */,
 				82BF9D9C1D4AE59200B09406 /* main.m in Sources */,

@@ -23,12 +23,12 @@
 
 
 
--(void)importJsonFileWithCompletion:(void (^)(CityWeather *))completed
-
+//-(void)importJsonFileWithCompletion:(void (^)(CityWeather *))completed
+-(void)importJsonFileWithZipcode:(NSString *)zipCode
+                      completion:(void (^)(CityWeather *))completed
 {
-    NSString *urlString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/forecast/city?zip=%@&APPID=b30904280f1a22b909a65b11b46a84b1",self.zipcode];
+    NSString *urlString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/forecast/city?zip=%@&APPID=b30904280f1a22b909a65b11b46a84b1",zipCode];
     NSURL *url = [NSURL URLWithString:urlString];
- // NSURL *url = [NSURL URLWithString:@"http://api.openweathermap.org/data/2.5/forecast/city?zip=94110&APPID=b30904280f1a22b909a65b11b46a84b1"];
    
     NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithURL:url
                                                          completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {

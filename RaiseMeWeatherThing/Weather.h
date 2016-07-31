@@ -13,5 +13,6 @@
 @interface Weather : NSObject
     @property NSString *zipcode;
     @property (nonatomic) NSMutableArray *weatherInAllCities;
-    -(void)importJsonFileWithCompletion:(void (^)(CityWeather *))completed;
+    -(void)importJsonFileWithZipcode:(NSString *)zipCode
+                          completion:(void (^)(CityWeather *))complete;
 @end
